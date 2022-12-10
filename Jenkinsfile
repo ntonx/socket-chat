@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git'){
             steps{
-                git branch: 'master', url='https://github.com/ntonx/socket-chat'
+                git branch:'master', url:'https://github.com/ntonx/socket-chat'
             }
         }
         

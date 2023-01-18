@@ -4,7 +4,6 @@ const http = require('http');
 const path = require('path');
 const app = express();
 
-// Adding a new line to check githook in Jenkins
 
 let server = http.createServer(app);
 

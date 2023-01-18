@@ -27,6 +27,7 @@ pipeline {
                 // Otherwhise selenium-webdriver is in local computer, it is not detected by this project, so we hace to install inside this project
                 bat 'npm install selenium-webdriver@4.1.2'
                 bat 'node server/test/selenium.js'
+		// ending execution
             }
         }
     }
